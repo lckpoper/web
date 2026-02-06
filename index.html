@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOVUM — Cinematic Digital Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="theme-dark">
+    <div class="cursor" aria-hidden="true"></div>
+    <div class="cursor-blur" aria-hidden="true"></div>
+
+    <header class="nav">
+      <div class="nav__logo" data-magnetic>
+        <span>NOVUM</span>
+        <span class="nav__tag">CINEMATIC STUDIO</span>
+      </div>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">Concept</a>
+        <a href="#features">Systems</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#insights">Insights</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="sound-toggle" type="button" aria-pressed="false">
+          Sound
+          <span class="sound-indicator"></span>
+        </button>
+        <button class="theme-toggle" type="button" aria-pressed="true">
+          Mode
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero__bg" aria-hidden="true">
+          <div class="hero__glow"></div>
+          <div class="hero__grain"></div>
+          <div class="hero__orb orb--one"></div>
+          <div class="hero__orb orb--two"></div>
+          <div class="hero__orb orb--three"></div>
+        </div>
+        <div class="hero__content">
+          <p class="hero__eyebrow" data-reveal>Future-forward digital couture</p>
+          <h1 class="hero__title" data-split>
+            Создаём&nbsp;<span>cinematic</span>
+            <span>experience</span>
+            для брендов новой эпохи
+          </h1>
+          <p class="hero__subtitle" data-reveal>
+            Погружение в глубину. Слои света, кинетическая типографика и spatial UI —
+            всё, что нужно для high-end digital присутствия.
+          </p>
+          <div class="hero__actions">
+            <button class="btn btn--primary" type="button" data-magnetic>
+              Запустить опыт
+            </button>
+            <button class="btn btn--ghost" type="button" data-magnetic>
+              Смотреть демо
+            </button>
+          </div>
+          <div class="hero__meta" data-reveal>
+            <div>
+              <span>01</span>
+              <strong>Immersive</strong>
+              <p>Cinematic intro & layered depth.</p>
+            </div>
+            <div>
+              <span>02</span>
+              <strong>Adaptive</strong>
+              <p>Responsive UX with live motion.</p>
+            </div>
+            <div>
+              <span>03</span>
+              <strong>Precision</strong>
+              <p>Microinteractions tuned to 60fps.</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero__scroll" data-reveal>
+          <span>Scroll to reveal</span>
+          <div class="hero__scroll-line"></div>
+        </div>
+      </section>
+
+      <section class="section section--about" id="about">
+        <div class="section__grid">
+          <div>
+            <p class="section__eyebrow" data-reveal>Concept</p>
+            <h2 class="section__title" data-split>
+              Дизайн как режиссура. История как интерфейс.
+            </h2>
+          </div>
+          <div class="section__body" data-reveal>
+            <p>
+              Мы создаём цифровые миры, где скролл — это нарратив, а каждый блок
+              чувствуется как сцена. Используем тщательно настроенные кривые
+              анимации, чтобы взаимодействие ощущалось как premium-тактильность.
+            </p>
+            <p>
+              Каждая деталь отшлифована: баланс света и тени, невидимые подсказки
+              интерфейса и эффект присутствия, будто вы внутри футуристичного
+              арт-фильма.
+            </p>
+            <div class="pill-list">
+              <span>Immersive story</span>
+              <span>Kinetic type</span>
+              <span>Spatial UX</span>
+              <span>Luxury tech</span>
+            </div>
+          </div>
+        </div>
+        <div class="parallax-card" data-parallax>
+          <div class="parallax-card__inner">
+            <span>LIVE</span>
+            <h3>Sensorial layers</h3>
+            <p>
+              Настраиваем мягкие параллаксы, чтобы интерфейс жил в трёх измерениях.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--features" id="features">
+        <div class="section__header">
+          <div>
+            <p class="section__eyebrow" data-reveal>Systems</p>
+            <h2 class="section__title" data-split>Интерактивные модули нового поколения</h2>
+          </div>
+          <p class="section__lead" data-reveal>
+            Каждая карточка реагирует на движение, показывая скрытые слои данных.
+          </p>
+        </div>
+        <div class="features-grid">
+          <article class="feature-card" data-tilt data-reveal>
+            <div class="feature-card__header">
+              <h3>Pulse Navigation</h3>
+              <span>01</span>
+            </div>
+            <p>Навигация дышит и ведёт, создавая ощущение живого интерфейса.</p>
+            <div class="feature-card__footer">Magnetic hover</div>
+          </article>
+          <article class="feature-card" data-tilt data-reveal>
+            <div class="feature-card__header">
+              <h3>Data Atmosphere</h3>
+              <span>02</span>
+            </div>
+            <p>Данные превращаются в эмоциональные сигналы через динамику.</p>
+            <div class="feature-card__footer">Scroll timeline</div>
+          </article>
+          <article class="feature-card" data-tilt data-reveal>
+            <div class="feature-card__header">
+              <h3>Immersion Layer</h3>
+              <span>03</span>
+            </div>
+            <p>Мультислойные градиенты добавляют глубину без шума.</p>
+            <div class="feature-card__footer">Parallax depth</div>
+          </article>
+          <article class="feature-card" data-tilt data-reveal>
+            <div class="feature-card__header">
+              <h3>Reactive Motion</h3>
+              <span>04</span>
+            </div>
+            <p>Сцены реагируют на жесты, создавая ощущение сцены в движении.</p>
+            <div class="feature-card__footer">Cinematic cues</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--gallery" id="gallery">
+        <div class="section__header">
+          <div>
+            <p class="section__eyebrow" data-reveal>Visual Showcase</p>
+            <h2 class="section__title" data-split>Потоки света и формы будущего</h2>
+          </div>
+        </div>
+        <div class="gallery">
+          <div class="gallery__item" data-reveal>
+            <div class="gallery__media media--one"></div>
+            <h3>Midnight Flux</h3>
+            <p>Тёмная материя с живым свечением.</p>
+          </div>
+          <div class="gallery__item" data-reveal>
+            <div class="gallery__media media--two"></div>
+            <h3>Liquid Grid</h3>
+            <p>Графика, как жидкая архитектура.</p>
+          </div>
+          <div class="gallery__item" data-reveal>
+            <div class="gallery__media media--three"></div>
+            <h3>Neural Aurora</h3>
+            <p>Северное сияние данных.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--stats" id="insights">
+        <div class="stats">
+          <div class="stats__intro">
+            <p class="section__eyebrow" data-reveal>Insights</p>
+            <h2 class="section__title" data-split>Данные как кинематография</h2>
+            <p class="section__lead" data-reveal>
+              Показатели, которые ощущаются как световые импульсы. Секции оживают
+              по мере скролла.
+            </p>
+          </div>
+          <div class="stats__grid">
+            <div class="stat" data-reveal>
+              <h3><span data-count="98">0</span>%</h3>
+              <p>Надёжность перформанса на всех девайсах.</p>
+            </div>
+            <div class="stat" data-reveal>
+              <h3><span data-count="24">0</span>ms</h3>
+              <p>Реакция микровзаимодействий.</p>
+            </div>
+            <div class="stat" data-reveal>
+              <h3><span data-count="12">0</span>x</h3>
+              <p>Глубина слоями для эффектов.</p>
+            </div>
+            <div class="stat" data-reveal>
+              <h3><span data-count="60">0</span>fps</h3>
+              <p>Стабильный cinematic ритм.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--cta" id="cta">
+        <div class="cta">
+          <div class="cta__content" data-reveal>
+            <p class="section__eyebrow">Activation</p>
+            <h2 class="section__title" data-split>Готовы перейти на следующий уровень?</h2>
+            <p class="section__lead">
+              Включаем свет. Запускаем сцены. Создаём опыт, который нельзя забыть.
+            </p>
+          </div>
+          <div class="cta__actions" data-reveal>
+            <button class="btn btn--primary" type="button" data-magnetic>
+              Запросить концепт
+            </button>
+            <button class="btn btn--ghost" type="button" data-magnetic>
+              Download deck
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div>
+          <span class="footer__logo">NOVUM</span>
+          <p>Digital couture studio crafting award-ready experiences.</p>
+        </div>
+        <div class="footer__links">
+          <a href="#top">Back to top</a>
+          <a href="#features">Modules</a>
+          <a href="#cta">Contact</a>
+        </div>
+      </div>
+      <div class="footer__pulse" aria-hidden="true"></div>
+    </footer>
+
+    <div class="easter-egg" role="status" aria-live="polite">
+      Вы нашли скрытый режим — cinematic boost активирован.
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
